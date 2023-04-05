@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\perey\\Documents\\GIT CLONES\\Udemy\\AngularYNET5\\AngularPeliculas\\back-end\\back-end\\back-end.csproj",
+      "projectUniqueName": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj",
       "projectName": "back-end",
-      "projectPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Udemy\\AngularYNET5\\AngularPeliculas\\back-end\\back-end\\back-end.csproj",
+      "projectPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj",
       "packagesPath": "C:\\Users\\perey\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Udemy\\AngularYNET5\\AngularPeliculas\\back-end\\back-end\\obj\\",
+      "outputPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\perey\\AppData\\Roaming\\NuGet\\NuGet.Config",
