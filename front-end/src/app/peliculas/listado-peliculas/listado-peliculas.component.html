@@ -1,0 +1,22 @@
+<div *ngIf="!peliculas">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="">
+</div>
+
+<div *ngIf="peliculas?.length === 0">
+    <p>No hay peliculas para mostrar</p>
+</div>
+
+<div *ngIf="peliculas && peliculas.length > 0">
+    <div *ngFor="let pelicula of peliculas; let i = index" class="pelicula-contenedor">
+        <div>
+           Pelicula {{i}}: {{pelicula.titulo}}
+        </div>
+        <div>
+            {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}} <!-- pipe date and uppercase-->
+        </div>
+        <div>
+            {{pelicula.precio | currency}} <!-- pipe date-->
+        </div>
+    </div>    
+</div>
+
