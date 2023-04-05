@@ -16,4 +16,7 @@ export class ListadoPeliculasComponent implements OnInit {
     
   }
 
+  eliminarPelicula(indicePeli :number) : void{
+    this.peliculas.splice(indicePeli,1);
+  }
 }

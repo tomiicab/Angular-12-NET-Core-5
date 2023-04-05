@@ -27,26 +27,12 @@ export class AppComponent implements OnInit{
         fechaLanzamiento : new Date('2015-11-07'),
         precio:111.99
       }]
-    },500);
+    },3000);
   
   } 
   title = 'Hola lo que yo quiera';
 
   peliculasEnCines;
 
-  peliculasEstrenos =[{
-    titulo : 'Los Angeles',
-    fechaLanzamiento : new Date(),
-    precio:1402.99
-  },
-  {
-    titulo : 'Nirvana en casa',
-    fechaLanzamiento : new Date('2010-10-12'),
-    precio:300
-  },
-  {
-    titulo : 'Hola Mundo el Film ',
-    fechaLanzamiento : new Date('2022-11-07'),
-    precio:150.99
-  }];
+  peliculasEstrenos =[];
 }
