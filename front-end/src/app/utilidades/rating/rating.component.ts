@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-rating',
@@ -11,6 +12,8 @@ export class RatingComponent implements OnInit {
   maximoRating = 5;
   @Input()
   ratingSeleccionado = 0;
+  @Output()
+  rated: EventEmitter<number> = new EventEmitter<number>();
   maximoRatingArr = [];
   votado = false;
   ratingAnterior;
@@ -37,5 +40,6 @@ export class RatingComponent implements OnInit {
     this.votado = true;
     this.ratingSeleccionado = index + 1;
     this.ratingAnterior = this.ratingSeleccionado;
+    this.rated.emit(this.ratingSeleccionado);
   }
 }

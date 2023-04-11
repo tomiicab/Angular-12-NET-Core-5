@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
   //tipo json
 //ngOnInit permite ejecutar un metodo o funcion antes que el component se inicialice.
 export class AppComponent implements OnInit{
+
   ngOnInit(): void {
 
     setTimeout(() => {
@@ -27,12 +28,20 @@ export class AppComponent implements OnInit{
         fechaLanzamiento : new Date('2015-11-07'),
         precio:111.99
       }]
-    },3000);
+    }, 500);
   
   } 
-  title = 'Hola lo que yo quiera';
-
+  title = 'Valor que yo quiera';
+  ocultar = false;
   peliculasEnCines;
 
   peliculasEstrenos =[];
+
+  manejarRated(voto: number):void{
+    alert(voto);
+  }
+
+  inputTextArea(evento) {
+    this.title =  evento.target.value;
+  }
 }

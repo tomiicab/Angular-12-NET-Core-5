@@ -5,8 +5,9 @@
     <ng-container contenido>
         <div *ngFor="let pelicula of peliculas; let i = index" class="pelicula-contenedor">
             <div>
-            Pelicula {{i}}: {{pelicula.titulo}}
-            <button style="margin-left: 1rem;" (click)="eliminarPelicula(i)">Eliminar</button>
+                <h2>Pelicula {{i}}: {{pelicula.titulo}}
+                    <button style="margin-left: 1rem;" (click)="eliminarPelicula(i)">Eliminar</button>
+                </h2>
             </div>
             <div>
                 {{pelicula.fechaLanzamiento | date:"dd-MMMM-yyyy" | uppercase}} <!-- pipe date and uppercase-->

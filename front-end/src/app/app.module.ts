@@ -8,14 +8,16 @@ import { ListadoGenericoComponent } from './utilidades/listado-generico/listado-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
-import { RatingComponent } from './utilidades/rating/rating.component'
+import { RatingComponent } from './utilidades/rating/rating.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component'
 @NgModule({
   declarations: [
     AppComponent,
     ListadoPeliculasComponent,
     ListadoGenericoComponent,
     MenuComponent,
-    RatingComponent
+    RatingComponent,
+    CicloDeVidaComponent
   ],
   imports: [
     BrowserModule,
