@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj": {}
+    "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj": {}
   },
   "projects": {
-    "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj": {
+    "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj",
+        "projectUniqueName": "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj",
         "projectName": "back-end",
-        "projectPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj",
-        "packagesPath": "C:\\Users\\perey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\obj\\",
+        "projectPath": "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj",
+        "packagesPath": "/Users/tomaspereyra/.nuget/packages/",
+        "outputPath": "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\perey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/tomaspereyra/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +40,7 @@
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -51,10 +49,25 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "csaZMq83iX7BL6zXpq0NLiVnaoYjZvu6ZpGnLj6Le5v7VCLnn9Du0gMPnZ7fbuVt6PNHuH/gC+OfuHJRhx0i8g==",
+  "dgSpecHash": "vpazs/Uo4RDjrPS8hQ4wxikMyMvSLbeWjj32iK8Ng6jEBDqE+dhY6YLE4mi2yufxK3kHNtURTM1FU9eNfregBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\perey\\Documents\\GIT CLONES\\Angular-12-NET-Core-5\\back-end\\back-end\\back-end.csproj",
+  "projectFilePath": "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\perey\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\perey\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\perey\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\perey\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\perey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\perey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/Users/tomaspereyra/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

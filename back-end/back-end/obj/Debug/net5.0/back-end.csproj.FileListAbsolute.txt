@@ -1,29 +1,63 @@
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\appsettings.json
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.exe
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.deps.json
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.runtimeconfig.json
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.runtimeconfig.dev.json
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\ref\back-end.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\back-end.pdb
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.csproj.AssemblyReference.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.AssemblyInfoInputs.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.AssemblyInfo.cs
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.csproj.CoreCompileInputs.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\staticwebassets\back-end.StaticWebAssets.Manifest.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\staticwebassets\back-end.StaticWebAssets.xml
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\scopedcss\bundle\back-end.styles.css
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.RazorTargetAssemblyInfo.cache
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.csproj.CopyComplete
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\ref\back-end.dll
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.pdb
-C:\Users\perey\Documents\GIT CLONES\Udemy\AngularYNET5\AngularPeliculas\back-end\back-end\obj\Debug\net5.0\back-end.genruntimeconfig.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/appsettings.json
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.exe
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.deps.json
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.runtimeconfig.json
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.runtimeconfig.dev.json
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/ref/back-end.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/back-end.pdb
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.csproj.AssemblyReference.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.AssemblyInfoInputs.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.AssemblyInfo.cs
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.csproj.CoreCompileInputs.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/staticwebassets/back-end.StaticWebAssets.Manifest.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/staticwebassets/back-end.StaticWebAssets.xml
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/scopedcss/bundle/back-end.styles.css
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.RazorTargetAssemblyInfo.cache
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.csproj.CopyComplete
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/ref/back-end.dll
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.pdb
+C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end/back-end/obj/Debug/net5.0/back-end.genruntimeconfig.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/appsettings.Development.json
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/appsettings.json
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.StaticWebAssets.xml
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.deps.json
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.runtimeconfig.json
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.runtimeconfig.dev.json
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/back-end.pdb
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.csproj.AssemblyReference.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.AssemblyInfoInputs.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.AssemblyInfo.cs
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.csproj.CoreCompileInputs.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.MvcApplicationPartsAssemblyInfo.cs
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.MvcApplicationPartsAssemblyInfo.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/scopedcss/bundle/back-end.styles.css
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/back-end.StaticWebAssets.Manifest.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/back-end.StaticWebAssets.Pack.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/msbuild.back-end.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/msbuild.build.back-end.props
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/msbuild.buildMultiTargeting.back-end.props
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/staticwebassets/msbuild.buildTransitive.back-end.props
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.RazorTargetAssemblyInfo.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.csproj.CopyComplete
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/refint/back-end.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.pdb
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.genruntimeconfig.cache
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/ref/back-end.dll
