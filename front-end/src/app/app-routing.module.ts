@@ -25,7 +25,9 @@ const routes: Routes = [
   {path: 'cines/crear', component: CrearCineComponent},
   {path: 'cines/editar/:id', component: EditarCineComponent},
   {path: 'peliculas/crear', component: CrearPeliculaComponent},
-  {path: 'peliculas/editar/:id', component: EditarPeliculaComponent}
+  {path: 'peliculas/editar/:id', component: EditarPeliculaComponent},
+  //regla de ruteo 👇🏻, lo redirijo al ladingpage pero con la ruta del navegador OK
+  {path: '**', redirectTo: ''}
 ];
 
 @NgModule({
