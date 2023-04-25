@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup } from '@angular/forms';
 import { Location } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 
@@ -10,11 +10,11 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class FiltroPeliculasComponent implements OnInit{
 
-  constructor(private formBuilder: FormBuilder,
+  constructor(private formBuilder: UntypedFormBuilder,
     private location: Location,
     private activatedRoute: ActivatedRoute){ }
   
-  form: FormGroup;
+  form: UntypedFormGroup;
 
   generos = [
   {id: 1, nombre: 'Drama'},

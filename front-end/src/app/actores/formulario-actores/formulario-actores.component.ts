@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { EventEmitter } from '@angular/core';
 import { actorCreacionDTO, actorDTO } from '../actor';
 
@@ -10,11 +10,11 @@ import { actorCreacionDTO, actorDTO } from '../actor';
 })
 export class FormularioActoresComponent implements OnInit{
 
-  constructor(private formBuilder: FormBuilder){
+  constructor(private formBuilder: UntypedFormBuilder){
   }
 
 
-  form: FormGroup;
+  form: UntypedFormGroup;
 
   @Input()
   modelo: actorDTO;

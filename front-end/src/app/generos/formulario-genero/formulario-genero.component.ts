@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { primeraLetraMayuscula } from 'src/app/utilidades/validadores/primeraLetraMayuscula';
 import { EventEmitter } from '@angular/core';
 import { generoCreacionDTO } from '../genero';
@@ -11,9 +11,9 @@ import { generoCreacionDTO } from '../genero';
 })
 export class FormularioGeneroComponent implements OnInit {
 
-  constructor(private formBuilder: FormBuilder){}
+  constructor(private formBuilder: UntypedFormBuilder){}
 
-  form: FormGroup;
+  form: UntypedFormGroup;
 
   @Input()
   modelo: generoCreacionDTO;
