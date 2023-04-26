@@ -6,6 +6,8 @@
         <mat-error *ngIf="form.invalid">El campo Nombre es requerido</mat-error>
     </mat-form-field>
 
+    <app-mapa></app-mapa>
+
     <div>
         <button mat-flat-button color="primary" [disabled]="form.invalid">Guardar Cambios</button>
         <a mat-stroked-button routerLink="/cines">Cancelar</a>
