@@ -1,4 +1,4 @@
-import { Component, Output } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 import { EventEmitter } from '@angular/core';
 
 @Component({
@@ -8,7 +8,11 @@ import { EventEmitter } from '@angular/core';
 })
 export class InputMarkdownComponent {
 
-  contenidoMarkdown: '';
+  @Input()
+  contenidoMarkdown: string;
+
+  @Input()
+  placeHolderTextArea: string = 'Texto';
 
   @Output()
   changeMarkdown: EventEmitter<string> = new EventEmitter<string>();
