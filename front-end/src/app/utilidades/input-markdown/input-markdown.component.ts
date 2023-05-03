@@ -17,8 +17,7 @@ export class InputMarkdownComponent {
   @Output()
   changeMarkdown: EventEmitter<string> = new EventEmitter<string>();
 
-  inputTextArea(evento){
-    this.contenidoMarkdown = evento.target.value;
+  inputTextArea(evento): void{
     this.changeMarkdown.emit(evento.target.value);
   }
 }
