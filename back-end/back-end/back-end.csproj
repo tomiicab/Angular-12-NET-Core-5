@@ -9,4 +9,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Entidades\" />
+    <None Remove="Repositorios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+    <Folder Include="Repositorios\" />
+  </ItemGroup>
 </Project>
