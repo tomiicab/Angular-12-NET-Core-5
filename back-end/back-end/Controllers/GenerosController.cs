@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using back_end.Entidades;
 using back_end.Repositorios;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace back_end.Controllers
 {
@@ -19,40 +21,43 @@ namespace back_end.Controllers
         [HttpGet]
         [HttpGet("listado")]
         [HttpGet("/listadogeneros")]
-        public List<Genero> Get()
+        public ActionResult<List<Genero>> Get()
         {
             return repositorio.ObtenerTodosLosGeneros();
         }
 
-        [HttpGet("{Id:int}/{nombre=roberto}")]
-        public Genero Get(int Id, string nombre)
+        [HttpGet("{Id:int}")]
+        public async Task<ActionResult<Genero>> Get(int Id, [FromHeader] string nombre)
         {
-            var genero = repositorio.ObtenerPorId(Id);
-
-            if (genero == null)
+            if (!ModelState.IsValid)
             {
-                //return NotFound();
+                return BadRequest(ModelState);
             }
 
+            var genero = await repositorio.ObtenerPorId(Id);
+
+            if (genero == null)
+                return NotFound();
+
             return genero;
+            //return Ok(genero);
         }
 
         [HttpPost]
-        public void Post()
+        public ActionResult Post([FromBody] Genero genero)
         {
-
+            return NoContent();
         }
 
         [HttpPut]
-        public void Put()
+        public ActionResult Put([FromBody] Genero genero)
         {
-
+            return NoContent();
         }
         [HttpDelete]
-        public void Delete()
+        public ActionResult Delete()
         {
-
+            return NoContent();
         }
     }
 }
-

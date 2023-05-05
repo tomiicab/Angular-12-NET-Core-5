@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using back_end.Entidades;
 
 namespace back_end.Repositorios
@@ -23,10 +24,10 @@ namespace back_end.Repositorios
 			return _generos;
 		}
 
-        public Genero ObtenerPorId(int Id)
+        public async Task<Genero> ObtenerPorId(int Id)//Task es una promesa.
         {
+			await Task.Delay(1);
 			return _generos.FirstOrDefault(x => x.Id == Id);
         }
     }
 }
-

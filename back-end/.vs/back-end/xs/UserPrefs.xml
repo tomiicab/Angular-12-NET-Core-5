@@ -1,26 +1,21 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/GenerosController.cs">
     <Files>
-      <File FileName="back-end/Repositorios/RepositorioEnMemoria.cs" Line="26" Column="16" />
-      <File FileName="back-end/Controllers/WeatherForecastController.cs" Line="40" Column="15" />
-      <File FileName="back-end/Startup.cs" Line="31" Column="39" />
-      <File FileName="back-end/Repositorios/IRepositorio.cs" Line="10" Column="37" />
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="37" Column="27" />
+      <File FileName="back-end/Repositorios/RepositorioEnMemoria.cs" />
+      <File FileName="back-end/Controllers/WeatherForecastController.cs" />
+      <File FileName="back-end/Startup.cs" />
+      <File FileName="back-end/Repositorios/IRepositorio.cs" />
+      <File FileName="back-end/Controllers/GenerosController.cs" Line="30" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="back-end" expanded="True">
             <Node name="back-end" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="GenerosController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Entidades" expanded="True" />
               <Node name="Repositorios" expanded="True" />
             </Node>
@@ -29,5 +24,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
