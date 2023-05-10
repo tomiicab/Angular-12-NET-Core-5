@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 namespace back_end.Controllers
 {
     [Route("api/generos")]
+    [ApiController]
 	public class GenerosController : ControllerBase
 	{
         private readonly IRepositorio repositorio;
@@ -29,10 +30,6 @@ namespace back_end.Controllers
         [HttpGet("{Id:int}")]
         public async Task<ActionResult<Genero>> Get(int Id, [FromHeader] string nombre)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
 
             var genero = await repositorio.ObtenerPorId(Id);
 
@@ -54,6 +51,7 @@ namespace back_end.Controllers
         {
             return NoContent();
         }
+
         [HttpDelete]
         public ActionResult Delete()
         {

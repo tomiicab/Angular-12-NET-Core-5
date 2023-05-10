@@ -12,9 +12,11 @@
   <ItemGroup>
     <None Remove="Entidades\" />
     <None Remove="Repositorios\" />
+    <None Remove="Validaciones\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
     <Folder Include="Repositorios\" />
+    <Folder Include="Validaciones\" />
   </ItemGroup>
 </Project>
