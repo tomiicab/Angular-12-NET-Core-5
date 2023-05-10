@@ -17,7 +17,11 @@ namespace back_end.Repositorios
 				new Genero(){Id = 1, Nombre = "Comedia" },
                 new Genero(){Id = 2, Nombre = "Accion" }
             };
+
+			_guid = Guid.NewGuid();
 		}
+
+		public Guid _guid { get; set; }
 
 		public List<Genero> ObtenerTodosLosGeneros()
 		{
@@ -29,5 +33,16 @@ namespace back_end.Repositorios
 			await Task.Delay(1);
 			return _generos.FirstOrDefault(x => x.Id == Id);
         }
+
+		public Guid ObtenerGuid()
+		{
+			return _guid;
+		}
+
+		public void CrearGenero(Genero genero)
+		{
+			genero.Id = _generos.Count() + 1;
+			_generos.Add(genero);
+		}
     }
 }

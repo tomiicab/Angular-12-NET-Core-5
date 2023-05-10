@@ -1,3 +1,4 @@
+using back_end.Controllers;
 using back_end.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,9 +10,12 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Threading.Tasks;
+using static System.Net.WebRequestMethods;
 
 namespace back_end
 {
@@ -27,7 +31,29 @@ namespace back_end
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IRepositorio, RepositorioEnMemoria>();
+            //Existen tres maneras tres tiempos de vida o ciclos de vida que pueden tener un servicio que son 
+            //Transient, Scope, Singleton.
+
+            //Transient, que es el que estamos utilizando.
+            //Es el tiempo más corto de vida que le podemos dar a un servicio.
+            //Y significa que cada vez que pidamos.
+            //Por ejemplo, en este caso una instancia del servicio de IRepositorio, vamos a tener una nueva instancia
+            //de este RepositorioEnMemoria.
+            //No importa que en una misma petición HTTP
+            //distintas clases soliciten el servicio IRepositorio.
+            //Se les va a entregar una instancia distinta al RepositorioEnMemoria.
+
+            //Otro caso que tenemos es Scope
+            //Cuando hablamos de scope nos referimos a que el tiempo de vida de la clase instanciada va a ser durante
+            //toda la petición http.
+
+            //Singleton el cual sirve para indicar que el tiempo de vida de la instancia RepositorioEnMemoria
+            //en este caso de la instancia del servicio va a ser durante todo el tiempo de ejecución de
+            //la aplicación, lo que quiere decir que distintos clientes van a compartir la misma instancia de la
+            //clase RepositorioEnMemoria.
+
+            services.AddScoped<IRepositorio, RepositorioEnMemoria>();
+            services.AddScoped<WeatherForecastController>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
