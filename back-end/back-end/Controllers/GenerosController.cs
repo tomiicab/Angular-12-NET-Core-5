@@ -5,6 +5,7 @@ using back_end.Entidades;
 using back_end.Repositorios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.Extensions.Logging;
 
 namespace back_end.Controllers
 {
@@ -14,11 +15,15 @@ namespace back_end.Controllers
 	{
         private readonly IRepositorio repositorio;
         private readonly WeatherForecastController weatherForecastController;
+        private readonly ILogger<GenerosController> logger;
 
-        public GenerosController(IRepositorio repositorio, WeatherForecastController weatherForecastController)
+        public GenerosController(IRepositorio repositorio,
+            WeatherForecastController weatherForecastController,
+            ILogger<GenerosController> logger)
 		{
             this.repositorio = repositorio;
             this.weatherForecastController = weatherForecastController;
+            this.logger = logger;
         }
 
         [HttpGet]
@@ -26,25 +31,31 @@ namespace back_end.Controllers
         [HttpGet("/listadogeneros")]
         public ActionResult<List<Genero>> Get()
         {
+            logger.LogInformation("Vamos a mostrar los generos");
             return repositorio.ObtenerTodosLosGeneros();
         }
 
-        [HttpGet("guid")]
-        public ActionResult<Guid> GetGuid()
-        {
-            return Ok(new { GUID_GenerosController = repositorio.ObtenerGuid(),
-                Guid_WeatherForecastController = weatherForecastController.ObtenerWeatherForecastController()
-            }); 
-        }
+        //[HttpGet("guid")]
+        //public ActionResult<Guid> GetGuid()
+        //{
+        //    return Ok(new { GUID_GenerosController = repositorio.ObtenerGuid(),
+        //        Guid_WeatherForecastController = weatherForecastController.ObtenerWeatherForecastController()
+        //    }); 
+        //}
 
         [HttpGet("{Id:int}")]
         public async Task<ActionResult<Genero>> Get(int Id, [FromHeader] string nombre)
         {
+            logger.LogDebug($"Obteniendo un genero por el id {Id}");
 
             var genero = await repositorio.ObtenerPorId(Id);
 
             if (genero == null)
+            {
+                logger.LogWarning($"No pudimos encontrar el genero de id {Id}");
                 return NotFound();
+            }
+                
 
             return genero;
             //return Ok(genero);

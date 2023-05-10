@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/GenerosController.cs">
-    <Files>
-      <File FileName="back-end/Repositorios/RepositorioEnMemoria.cs" Line="33" Column="2" />
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="49" Column="1" />
-      <File FileName="back-end/Repositorios/IRepositorio.cs" Line="11" Column="28" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="back-end" expanded="True">
             <Node name="back-end" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
               <Node name="Entidades" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Repositorios" expanded="True" />
+              <Node name="Validaciones" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
