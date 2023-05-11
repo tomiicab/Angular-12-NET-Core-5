@@ -1,6 +1,5 @@
 using back_end.Controllers;
 using back_end.Filtros;
-using back_end.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,8 +35,7 @@ namespace back_end
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
-            services.AddResponseCaching();
-
+            
             //Existen tres maneras tres tiempos de vida o ciclos de vida que pueden tener un servicio que son 
             //Transient, Scope, Singleton.
 
@@ -59,9 +57,6 @@ namespace back_end
             //la aplicación, lo que quiere decir que distintos clientes van a compartir la misma instancia de la
             //clase RepositorioEnMemoria.
 
-            services.AddScoped<IRepositorio, RepositorioEnMemoria>();
-            services.AddScoped<WeatherForecastController>();
-            services.AddTransient<MiFiltroDeAccion>();
             services.AddControllers(options => {
                 options.Filters.Add(typeof(FiltroDeExcepcion));
             });
@@ -73,38 +68,8 @@ namespace back_end
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         //tuberia de procesos. Middleware.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
-            ILogger<Startup> logger)
-        {
-            app.Use(async (context, next) => {
-
-                using (var swapStream = new MemoryStream()) {
-
-                    var respuestaOriginal = context.Response.Body;
-                    context.Response.Body = swapStream;
-
-                    await next.Invoke();
-
-                    swapStream.Seek(0 ,SeekOrigin.Begin);
-                    string respuesta = new StreamReader(swapStream).ReadToEnd();
-                    swapStream.Seek(0, SeekOrigin.Begin);
-
-                    await swapStream.CopyToAsync(respuestaOriginal);
-                    context.Response.Body = respuestaOriginal;
-
-                    logger.LogInformation(respuesta);
-                }
-            });
-
-            app.Map("/mapa1",(app) => {
-
-                app.Run(async context => {
-                    await context.Response.WriteAsync("Estoy interceptando el pipile");
-                });
-
-            });
-
-            
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {             
             //los middleware que empiezan con use no detienen el proceso.
             if (env.IsDevelopment())
             {
@@ -116,8 +81,6 @@ namespace back_end
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseResponseCaching();
 
             app.UseAuthentication();
 

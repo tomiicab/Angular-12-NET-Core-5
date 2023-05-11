@@ -12,13 +12,11 @@
 
   <ItemGroup>
     <None Remove="Entidades\" />
-    <None Remove="Repositorios\" />
     <None Remove="Validaciones\" />
     <None Remove="Filtros\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
-    <Folder Include="Repositorios\" />
     <Folder Include="Validaciones\" />
     <Folder Include="Filtros\" />
   </ItemGroup>
