@@ -41,10 +41,10 @@ namespace back_end.Controllers
             .ToArray();
         }
 
-        //[HttpGet]
-        //public Guid ObtenerWeatherForecastController()
-        //{
-        //    return repositorio.ObtenerGuid();
-        //}
+        [HttpGet("guid")]
+        public Guid ObtenerWeatherForecastController()
+        {
+            return repositorio.ObtenerGuid();
+        }
     }
 }

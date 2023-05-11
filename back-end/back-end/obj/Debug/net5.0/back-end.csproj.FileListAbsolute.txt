@@ -61,3 +61,10 @@ C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.pdb
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/back-end.genruntimeconfig.cache
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/ref/back-end.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll

@@ -18,10 +18,10 @@ namespace back_end.Repositorios
                 new Genero(){Id = 2, Nombre = "Accion" }
             };
 
-			//_guid = Guid.NewGuid();
+			_guid = Guid.NewGuid();
 		}
 
-		//public Guid _guid { get; set; }
+		public Guid _guid { get; set; }
 
 		public List<Genero> ObtenerTodosLosGeneros()
 		{
@@ -34,10 +34,10 @@ namespace back_end.Repositorios
 			return _generos.FirstOrDefault(x => x.Id == Id);
         }
 
-		//public Guid ObtenerGuid()
-		//{
-		//	return _guid;
-		//}
+		public Guid ObtenerGuid()
+		{
+			return _guid;
+		}
 
 		public void CrearGenero(Genero genero)
 		{

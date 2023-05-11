@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using back_end.Entidades;
 using back_end.Repositorios;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
@@ -11,7 +13,8 @@ namespace back_end.Controllers
 {
     [Route("api/generos")]
     [ApiController]
-	public class GenerosController : ControllerBase
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public class GenerosController : ControllerBase
 	{
         private readonly IRepositorio repositorio;
         private readonly WeatherForecastController weatherForecastController;
@@ -29,19 +32,22 @@ namespace back_end.Controllers
         [HttpGet]
         [HttpGet("listado")]
         [HttpGet("/listadogeneros")]
+        //[ResponseCache(Duration = 60)]//capa de cache activa durante 60seg.
         public ActionResult<List<Genero>> Get()
         {
             logger.LogInformation("Vamos a mostrar los generos");
             return repositorio.ObtenerTodosLosGeneros();
         }
 
-        //[HttpGet("guid")]
-        //public ActionResult<Guid> GetGuid()
-        //{
-        //    return Ok(new { GUID_GenerosController = repositorio.ObtenerGuid(),
-        //        Guid_WeatherForecastController = weatherForecastController.ObtenerWeatherForecastController()
-        //    }); 
-        //}
+        [HttpGet("guid")]
+        public ActionResult<Guid> GetGuid()
+        {
+            return Ok(new
+            {
+                GUID_GenerosController = repositorio.ObtenerGuid(),
+                Guid_WeatherForecastController = weatherForecastController.ObtenerWeatherForecastController()
+            });
+        }
 
         [HttpGet("{Id:int}")]
         public async Task<ActionResult<Genero>> Get(int Id, [FromHeader] string nombre)
