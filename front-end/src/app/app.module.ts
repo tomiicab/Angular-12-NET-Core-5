@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -71,7 +72,8 @@ import { AutocompleteActoresComponent } from './actores/autocomplete-actores/aut
     ReactiveFormsModule,
     FormsModule,
     LeafletModule,
-    MarkdownModule.forRoot()
+    MarkdownModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
