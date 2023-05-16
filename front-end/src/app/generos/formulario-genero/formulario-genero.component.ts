@@ -25,7 +25,7 @@ export class FormularioGeneroComponent implements OnInit {
   ngOnInit(): void {
     this.form = this.formBuilder.group({
       nombre: ['',{
-        validators: [Validators.required, Validators.minLength(3), primeraLetraMayuscula()]
+        validators: [Validators.required, Validators.minLength(3)]
       }]//el valor inicial '' o por defect que va a tener el campo
     });
 
