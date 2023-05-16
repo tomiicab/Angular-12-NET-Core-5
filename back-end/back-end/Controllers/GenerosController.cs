@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace back_end.Controllers
@@ -17,18 +18,21 @@ namespace back_end.Controllers
     public class GenerosController : ControllerBase
 	{
         private readonly ILogger<GenerosController> logger;
+        private readonly ApplicationDbContext context;
 
-        public GenerosController(ILogger<GenerosController> logger)
+        public GenerosController(ILogger<GenerosController> logger,
+            ApplicationDbContext context)
 		{
             this.logger = logger;
+            this.context = context;
         }
 
         [HttpGet]
         //[ResponseCache(Duration = 60)]//capa de cache activa durante 60seg.
         //[ServiceFilter(typeof(MiFiltroDeAccion))]
-        public ActionResult<List<Genero>> Get()
+        public async Task<ActionResult<List<Genero>>> Get()
         {
-            return new List<Genero> { new Genero() { Id = 1, Nombre = "Comedia" } };
+            return await context.Generos.ToListAsync();
         }
 
         [HttpGet("{Id:int}")]
@@ -39,9 +43,11 @@ namespace back_end.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Genero genero)
+        public async Task<ActionResult> Post([FromBody] Genero genero)
         {
-            throw new NotImplementedException();
+            context.Add(genero);
+            await context.SaveChangesAsync();
+            return NoContent();
         }
 
         [HttpPut]
