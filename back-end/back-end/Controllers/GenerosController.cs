@@ -29,7 +29,7 @@ namespace back_end.Controllers
 
         [HttpGet]
         //[ResponseCache(Duration = 60)]//capa de cache activa durante 60seg.
-        //[ServiceFilter(typeof(MiFiltroDeAccion))]
+        //[ServiceFilter(typeof(MiFiltroDeAccion))] 
         public async Task<ActionResult<List<Genero>>> Get()
         {
             return await context.Generos.ToListAsync();
