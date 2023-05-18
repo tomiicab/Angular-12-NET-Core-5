@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
+using back_end.DTOs;
 using back_end.Entidades;
 using back_end.Filtros; 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -19,20 +21,27 @@ namespace back_end.Controllers
 	{
         private readonly ILogger<GenerosController> logger;
         private readonly ApplicationDbContext context;
+        private readonly IMapper mapper;
 
         public GenerosController(ILogger<GenerosController> logger,
-            ApplicationDbContext context)
+            ApplicationDbContext context,
+            IMapper mapper)
 		{
             this.logger = logger;
             this.context = context;
+            this.mapper = mapper;
         }
 
         [HttpGet]
         //[ResponseCache(Duration = 60)]//capa de cache activa durante 60seg.
         //[ServiceFilter(typeof(MiFiltroDeAccion))] 
-        public async Task<ActionResult<List<Genero>>> Get()
+        public async Task<ActionResult<List<GeneroDTO>>> Get()
         {
-            return await context.Generos.ToListAsync();
+            var generos = await context.Generos.ToListAsync();
+            var result = new List<GeneroDTO>();
+
+            //usando automapper
+            return mapper.Map<List<GeneroDTO>>(generos);
         }
 
         [HttpGet("{Id:int}")]
@@ -43,8 +52,9 @@ namespace back_end.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Genero genero)
+        public async Task<ActionResult> Post([FromBody] GeneroCreacionDTO generoCreacionDTO)
         {
+            var genero = mapper.Map<Genero>(generoCreacionDTO);
             context.Add(genero);
             await context.SaveChangesAsync();
             return NoContent();
