@@ -10,6 +10,9 @@ namespace back_end.Utilidades
 		public AutoMapperProfiles()
 		{
 			CreateMap<Genero, GeneroDTO>().ReverseMap();
+
+			//de generoCreacionDTO hacia Genero
+			//entrada un dto y salida un genero
 			CreateMap<GeneroCreacionDTO, Genero>();
 		}
 	}
