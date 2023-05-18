@@ -1,24 +1,21 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/GenerosController.cs">
-    <Files>
-      <File FileName="back-end/Migrations/20230516161456_Initial.cs" />
-      <File FileName="back-end/appsettings.json" />
-      <File FileName="back-end/Startup.cs" />
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="28" Column="10" />
-    </Files>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="back-end" expanded="True">
             <Node name="back-end" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Entidades" expanded="True">
+                <Node name="Genero.cs" selected="True" />
+              </Node>
               <Node name="Migrations" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>

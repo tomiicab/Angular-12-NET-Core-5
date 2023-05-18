@@ -5,6 +5,7 @@ import { primeraLetraMayuscula } from 'src/app/utilidades/validadores/primeraLet
 import { generoCreacionDTO } from '../genero';
 import { GenerosService } from '../generos.service';
 import { error } from 'console';
+import { parsearErroresAPI } from 'src/app/utilidades/utilidades';
 
 @Component({
   selector: 'app-crear-genero',
@@ -13,11 +14,14 @@ import { error } from 'console';
 })
 export class CrearGeneroComponent{
 
+  errores: string[] = [];
+
   constructor(private router: Router, private generosService: GenerosService){}
 
   guardarCambios(genero: generoCreacionDTO){
     this.generosService.crear(genero).subscribe(() => {
       this.router.navigate(['/generos']);
-    }, error => console.log(error));
+    }, (error) => this.errores = parsearErroresAPI(error)
+    ); 
   }
 }
