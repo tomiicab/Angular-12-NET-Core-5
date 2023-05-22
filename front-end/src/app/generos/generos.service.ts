@@ -31,4 +31,8 @@ export class GenerosService {
   public editar(id: Number, genero: generoCreacionDTO){
     return this.http.put(`${this.apiURL}/${id}`, genero);
   }
+
+  public borrar(id: Number) {
+    return this.http.delete(`${this.apiURL}/${id}`);
+  }
 }
