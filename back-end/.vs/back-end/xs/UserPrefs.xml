@@ -1,18 +1,12 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Utilidades/AutoMapperProfiles.cs">
     <Files>
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="51" Column="33" />
-      <File FileName="back-end/DTOs/GeneroDTO.cs" Line="12" Column="1" />
-      <File FileName="back-end/Entidades/Genero.cs" Line="12" Column="1" />
-      <File FileName="back-end/Utilidades/AutoMapperProfiles.cs" Line="15" Column="3" />
-      <File FileName="back-end/DTOs/GeneroCreacionDTO.cs" Line="18" Column="1" />
+      <File FileName="back-end/Controllers/GenerosController.cs" />
+      <File FileName="back-end/DTOs/GeneroDTO.cs" />
+      <File FileName="back-end/Entidades/Genero.cs" />
+      <File FileName="back-end/Utilidades/AutoMapperProfiles.cs" Line="15" Column="39" />
+      <File FileName="back-end/DTOs/GeneroCreacionDTO.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,4 +25,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using back_end.DTOs;
 using back_end.Entidades;
-using back_end.Filtros; 
+using back_end.Filtros;
+using back_end.Utilidades;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -35,11 +37,11 @@ namespace back_end.Controllers
         [HttpGet]
         //[ResponseCache(Duration = 60)]//capa de cache activa durante 60seg.
         //[ServiceFilter(typeof(MiFiltroDeAccion))] 
-        public async Task<ActionResult<List<GeneroDTO>>> Get()
+        public async Task<ActionResult<List<GeneroDTO>>> Get([FromQuery] PaginacionDTO paginacionDTO)
         {
-            var generos = await context.Generos.ToListAsync();
-            var result = new List<GeneroDTO>();
-
+            var queryable = context.Generos.AsQueryable();
+            await HttpContext.InsertarParametrosPaginacionEnCabecera(queryable);
+            var generos = await queryable.OrderBy(x => x.Nombre).Paginar(paginacionDTO).ToListAsync();
             //usando automapper
             return mapper.Map<List<GeneroDTO>>(generos);
         }
