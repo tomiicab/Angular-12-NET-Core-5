@@ -3,14 +3,11 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/GenerosController.cs">
     <Files>
-      <File FileName="back-end/DTOs/PaginacionDTO.cs" Line="22" Column="4" />
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="44" Column="103" />
-      <File FileName="back-end/Utilidades/HttpContextExtensions.cs" Line="20" Column="60" />
+      <File FileName="back-end/Controllers/GenerosController.cs" Line="103" Column="32" />
+      <File FileName="back-end/Startup.cs" Line="109" Column="1" />
       <File FileName="back-end/DTOs/GeneroCreacionDTO.cs" Line="1" Column="1" />
-      <File FileName="back-end/Utilidades/IQueryableExtensions.cs" Line="18" Column="1" />
-      <File FileName="back-end/Startup.cs" Line="49" Column="84" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

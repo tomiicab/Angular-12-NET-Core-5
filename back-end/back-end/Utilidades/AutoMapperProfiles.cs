@@ -14,7 +14,9 @@ namespace back_end.Utilidades
 			//de generoCreacionDTO hacia Genero
 			//entrada un dto y salida un genero
 			CreateMap<GeneroCreacionDTO, Genero>();
-		}
+            CreateMap<Actor, ActorDTO>().ReverseMap();
+			CreateMap<ActorCreacionDTO, Actor>().ForMember(x => x.Foto, options => options.Ignore());
+        }
 	}
 }
 
