@@ -1,6 +1,7 @@
 using AutoMapper;
 using back_end.Controllers;
 using back_end.Filtros;
+using back_end.Utilidades;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,6 +38,14 @@ namespace back_end
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
+
+            //para guardar en azure storage.
+            //services.AddTransient<IAlmacenadorArchivos, AlmacenadorAzureStorage>();
+
+            //guardar local
+            services.AddTransient<IAlmacenadorArchivos, AlmacenadorArchivosLocal>();
+
+            services.AddHttpContextAccessor();
 
             services.AddDbContext<ApplicationDbContext>(options => options
             .UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
@@ -95,6 +104,8 @@ namespace back_end
             }
 
             app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
 
             app.UseRouting();
 

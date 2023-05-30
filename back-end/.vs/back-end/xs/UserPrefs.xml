@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
+  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/GenerosController.cs">
-    <Files>
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="103" Column="32" />
-      <File FileName="back-end/Startup.cs" Line="109" Column="1" />
-      <File FileName="back-end/DTOs/GeneroCreacionDTO.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -26,7 +24,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
