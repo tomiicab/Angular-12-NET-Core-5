@@ -1,7 +1,9 @@
 export interface actorDTO{
+    id: Number;
     nombre: string;
     fechaNacimiento: Date;
     foto: string;
+    biografia: string;
 }
 
 export interface actorCreacionDTO{
