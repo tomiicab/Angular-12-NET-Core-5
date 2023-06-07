@@ -41,6 +41,15 @@ namespace back_end
         {
             services.AddAutoMapper(typeof(Startup));
 
+            services.AddSingleton(provider =>
+                new MapperConfiguration(config =>
+                {
+                    var geometryFactory = provider.GetRequiredService<GeometryFactory>();
+                    config.AddProfile(new AutoMapperProfiles(geometryFactory));
+                }).CreateMapper());
+
+            services.AddSingleton<GeometryFactory>(NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326));
+
             //para guardar en azure storage.
             //services.AddTransient<IAlmacenadorArchivos, AlmacenadorAzureStorage>();
 
@@ -52,8 +61,6 @@ namespace back_end
             services.AddDbContext<ApplicationDbContext>(options => options
             .UseSqlServer(Configuration.GetConnectionString("defaultConnection"),
             sqlServer => sqlServer.UseNetTopologySuite()));
-
-            services.AddSingleton<GeometryFactory>(NtsGeometryServices.Instance.CreateGeometryFactory(srid: 4326));
 
             services.AddCors(options => {
                 var frontendURL = Configuration.GetValue<string>("frontend_url");

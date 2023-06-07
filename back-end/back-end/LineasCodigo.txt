@@ -1,3 +1,2 @@
-﻿dotnet ef migrations add MyFirstMigration
-
+﻿dotnet ef migrations add Cines --project back-en
 dotnet ef database update --project back-end
