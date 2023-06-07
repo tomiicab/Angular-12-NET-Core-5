@@ -1,6 +1,7 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Controllers/ActoresController.cs">
     <Files>
       <File FileName="back-end/Controllers/ActoresController.cs" Line="102" Column="77" />
@@ -20,9 +21,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

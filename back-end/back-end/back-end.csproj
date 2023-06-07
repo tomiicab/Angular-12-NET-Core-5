@@ -21,6 +21,7 @@
     </PackageReference>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>

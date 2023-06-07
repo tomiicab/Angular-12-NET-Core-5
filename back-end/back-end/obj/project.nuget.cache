@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hTQmlbwZjJd1PgNZdCSQQeIMcP+Krhno9pHYExQx0Gp+vCUys6yv+QDkjBUiYeqmn1hUoSMyzycbvSQZpahUaQ==",
+  "dgSpecHash": "tPNrkY2n1yMDDCk2cxevtyszMd/C3o8+iMr00wR7NJ1iuNxGlQrM3bD2l95o8l+w/TCXCusOcvA4Q0ORp+6Opg==",
   "success": true,
   "projectFilePath": "/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/back-end.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/tomaspereyra/.nuget/packages/microsoft.entityframeworkcore.design/5.0.17/microsoft.entityframeworkcore.design.5.0.17.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.17/microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.entityframeworkcore.sqlserver/5.0.17/microsoft.entityframeworkcore.sqlserver.5.0.17.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/microsoft.entityframeworkcore.sqlserver.nettopologysuite/5.0.0/microsoft.entityframeworkcore.sqlserver.nettopologysuite.5.0.0.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.entityframeworkcore.tools/5.0.17/microsoft.entityframeworkcore.tools.5.0.17.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
@@ -43,6 +44,8 @@
     "/Users/tomaspereyra/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/nettopologysuite/2.1.0/nettopologysuite.2.1.0.nupkg.sha512",
+    "/Users/tomaspereyra/.nuget/packages/nettopologysuite.io.sqlserverbytes/2.0.0/nettopologysuite.io.sqlserverbytes.2.0.0.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/tomaspereyra/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

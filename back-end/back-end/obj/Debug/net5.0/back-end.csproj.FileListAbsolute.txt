@@ -99,3 +99,7 @@ C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Azure.Storage.Blobs.dll
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Azure.Storage.Common.dll
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/NetTopologySuite.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/NetTopologySuite.IO.SqlServerBytes.dll
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/EFCoreSqlServerNetTopologySuite.cs
