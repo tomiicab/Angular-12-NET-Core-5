@@ -1,33 +1,31 @@
 ﻿<Properties StartupConfiguration="{09A56401-0FE9-43C5-9917-BD82D0605E17}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="back-end/Utilidades/AutoMapperProfiles.cs">
     <Files>
-      <File FileName="back-end/Entidades/Cine.cs" Line="13" Column="1" />
-      <File FileName="back-end/Startup.cs" Line="63" Column="60" />
-      <File FileName="back-end/Controllers/GenerosController.cs" Line="87" Column="1" />
-      <File FileName="back-end/Controllers/CineController.cs" Line="35" Column="2" />
-      <File FileName="back-end/Utilidades/AutoMapperProfiles.cs" Line="23" Column="78" />
+      <File FileName="back-end/Entidades/Genero.cs" Line="1" Column="1" />
+      <File FileName="back-end/Entidades/Cine.cs" Line="15" Column="39" />
+      <File FileName="back-end/Entidades/Actor.cs" Line="1" Column="1" />
+      <File FileName="back-end/Utilidades/AutoMapperProfiles.cs" Line="28" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="back-end" expanded="True">
-            <Node name="Solution Items" expanded="True" />
             <Node name="back-end" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DTOs" expanded="True" />
-              <Node name="Entidades" expanded="True" />
-              <Node name="Utilidades" expanded="True" />
+              <Node name="Utilidades" expanded="True">
+                <Node name="AutoMapperProfiles.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.back-end PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

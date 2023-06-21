@@ -30,6 +30,7 @@
     <None Remove="Filtros\" />
     <None Remove="DTOs\" />
     <None Remove="Utilidades\" />
+    <None Remove="Test\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
@@ -38,6 +39,7 @@
     <Folder Include="DTOs\" />
     <Folder Include="Utilidades\" />
     <Folder Include="wwwroot\" />
+    <Folder Include="Test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />

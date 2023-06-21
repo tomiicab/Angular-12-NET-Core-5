@@ -13,9 +13,6 @@ namespace back_end.DTOs
 		public double Latitud { get; set; }
         [Range(-180, 180)]
         public double Longitud { get; set; }
-        public CineCreacionDTO()
-		{
-		}
 	}
 }
 
