@@ -3,7 +3,7 @@ using NetTopologySuite.Geometries;
 
 namespace back_end.Migrations
 {
-    public partial class Cines : Migration
+    public partial class Cinesnuevo : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -25,7 +25,7 @@ namespace back_end.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cines");
+            name: "Cines");
         }
     }
 }
