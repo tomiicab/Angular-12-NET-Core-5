@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { cineCreacionDTO } from '../cine';
 import { Router } from '@angular/router';
 import { CinesService } from '../cines.service';
@@ -11,7 +11,7 @@ import { parsearErroresAPI } from 'src/app/utilidades/utilidades';
 })
 export class CrearCineComponent {
 
-  errores: string[] = [];
+  @Input() errores: string[] = [];
 
   constructor(private router: Router, private cineService: CinesService){}
 

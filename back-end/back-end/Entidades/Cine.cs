@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
 using NetTopologySuite.Geometries;
+using System.Collections.Generic;
 
 namespace back_end.Entidades
 {
@@ -15,6 +16,8 @@ namespace back_end.Entidades
 
         [Column(TypeName = "geometry")]
         public Point Ubicacion { get; set; }
+		public List<PeliculasCines> PeliculasCines { get; set; }
+
 	}
 }
 

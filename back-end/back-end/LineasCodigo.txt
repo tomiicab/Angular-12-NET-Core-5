@@ -1,2 +1,5 @@
-﻿dotnet ef migrations add Cines --project back-en
+﻿PARARSE SOBRE LA RUTA DEL PROYECTO, EN ESTE CASO GITCLONES/NET5-ANGULAR.../BACKEND
+dotnet ef migrations add Cines --project back-end
 dotnet ef database update --project back-end
+
+tomaspereyra@MacBook-Air-de-Tomas back-end % dotnet ef migrations add Peliculas --project back-en
