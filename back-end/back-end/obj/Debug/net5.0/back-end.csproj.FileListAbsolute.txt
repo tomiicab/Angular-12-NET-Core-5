@@ -103,3 +103,4 @@ C:/Users/perey/Documents/GIT CLONES/Udemy/AngularYNET5/AngularPeliculas/back-end
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/NetTopologySuite.dll
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/NetTopologySuite.IO.SqlServerBytes.dll
 /Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/obj/Debug/net5.0/EFCoreSqlServerNetTopologySuite.cs
+/Users/tomaspereyra/GITCLONES/Angular-12-NET-Core-5/back-end/back-end/bin/Debug/net5.0/Newtonsoft.Json.dll
